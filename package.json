@@ -1,6 +1,6 @@
 {
 	"name": "cinovo-logger-socket.io",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"description": "Socket.IO wrapper for cinovo-logger.",
 	"keywords": [
 		"logger",
@@ -28,9 +28,9 @@
 		"cinovo-logger": ">=0.4.5 <0.5.0",
 		"cinovo-logger-console": "0.4.x",
 		"socket.io": "0.9.16",
-		"mocha": "1.13.0",
-		"assert-plus": "0.1.4",
-		"jslint": "0.2.0",
+		"mocha": "1.15.1",
+		"assert-plus": "0.1.5",
+		"jslint": "0.2.5",
 		"madge": "0.1.7",
 		"npmedge": "0.1.4"
 	},

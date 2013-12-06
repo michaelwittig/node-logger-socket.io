@@ -1,4 +1,5 @@
 function logfn(level, logger) {
+	"use strict";
 	switch(level) {
 		case 0:
 			return logger.error;
@@ -12,6 +13,7 @@ function logfn(level, logger) {
 }
 
 function argumentsToMetadata(args) {
+	"use strict";
 	var metadata = Array.prototype.slice.call(args).splice(2, 0);
 	if (metadata.length === 0) {
 		return undefined;
@@ -20,6 +22,7 @@ function argumentsToMetadata(args) {
 }
 
 module.exports = function(logger) {
+	"use strict";
 	return {
 		level: 3,
 		enabled: true,
@@ -40,5 +43,5 @@ module.exports = function(logger) {
 		debug: function(message) {
 			this.log(logger, 3, message, argumentsToMetadata(arguments));
 		}
-	}
+	};
 };

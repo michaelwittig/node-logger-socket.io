@@ -3,12 +3,13 @@ var wrapper = require("../index"),
 
 logger.append(require("cinovo-logger-console")(true, true, true, true));
 
-describe("socket.io wrapper", function(){
+describe("socket.io wrapper", function() {
+	"use strict";
 	it("should work if all params are set", function(done) {
 		logger.once("level_debug", function() {
 			done();
 		});
-		var io = require("socket.io").listen(8080, {
+		require("socket.io").listen(8080, {
 			"logger": wrapper(logger)
 		});
 	});
