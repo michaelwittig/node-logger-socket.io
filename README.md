@@ -10,12 +10,12 @@
                                                                       \_/__/  \_/__/
 `````
 
-[![Build Status](https://secure.travis-ci.org/cinovo/node-logger-socket.io.png)](http://travis-ci.org/cinovo/node-logger-socket.io)
+[![Build Status](https://secure.travis-ci.org/michaelwittig/node-logger-socket.io.png)](http://travis-ci.org/michaelwittig/node-logger-socket.io)
 [![NPM version](https://badge.fury.io/js/cinovo-logger-socket.io.png)](http://badge.fury.io/js/cinovo-logger-socket.io)
 
 # cinovo-logger-socket.io
 
-[Socket.IO](http://socket.io/) wrapper for [cinovo-logger](https://github.com/cinovo/node-logger).
+[Socket.IO](http://socket.io/) wrapper for [cinovo-logger](https://github.com/michaelwittig/node-logger).
 
 ## Getting started
 
@@ -43,7 +43,7 @@ var io = require("socket.io").listen(8080, {
 
 ### Done
 
-Now you can use [Socket.IO](http://socket.io/) with [cinovo-logger](https://github.com/cinovo/node-logger).
+Now you can use [Socket.IO](http://socket.io/) with [cinovo-logger](https://github.com/michaelwittig/node-logger).
 
 ## API
 
